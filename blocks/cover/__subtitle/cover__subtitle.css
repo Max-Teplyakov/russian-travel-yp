@@ -1,35 +1,17 @@
 .cover__subtitle {
     margin: 0 auto;
     max-width: 360px;
-    height: 66px;
-    position: absolute;
-    top: 58%;
-    right: 35%;
-    z-index: 10;
+    min-height: 66px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        top: 59%;
-        right: 32%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        top: 64%;
-        right: 28%;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        top: 56%;
-        right: 0%;
+        max-width: 288px;
+        height: 48px;
         font-size: 14px;
         line-height: 16px;
     }
