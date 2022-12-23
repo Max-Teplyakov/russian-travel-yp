@@ -8,38 +8,17 @@
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        width: 100%;
->>>>>>> 6a11cd3041c03776d0e954ac54ae15f782a1ef82
->>>>>>> c676b9dfce971cd563657658e7d4e943a9bfc6c3
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        width: 100%;
->>>>>>> 6a11cd3041c03776d0e954ac54ae15f782a1ef82
->>>>>>> c676b9dfce971cd563657658e7d4e943a9bfc6c3
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        width: 100%;
->>>>>>> 6a11cd3041c03776d0e954ac54ae15f782a1ef82
->>>>>>> c676b9dfce971cd563657658e7d4e943a9bfc6c3
     }
 }
