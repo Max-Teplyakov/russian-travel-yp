@@ -2,12 +2,10 @@
     margin: 92px 0;
     padding-left: 148px;
     max-width: 690px;
-    min-height: 429px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 92px 0;
         padding-left: 48px;
     }
 }
