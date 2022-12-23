@@ -10,6 +10,10 @@
 @media screen and (max-width: 620px) {
     .cover__subtitle {
         max-width: 288px;
+<<<<<<< HEAD
+=======
+        min-height: 48px;
+>>>>>>> 6a11cd3041c03776d0e954ac54ae15f782a1ef82
         font-size: 14px;
         line-height: 16px;
     }

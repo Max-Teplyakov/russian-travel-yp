@@ -4,7 +4,10 @@
     max-width: 460px;
     width: 100%;
     min-height: 460px;
+<<<<<<< HEAD
     object-fit: cover;
+=======
+>>>>>>> 6a11cd3041c03776d0e954ac54ae15f782a1ef82
 }
 
 @media screen and (max-width: 1024px) {
