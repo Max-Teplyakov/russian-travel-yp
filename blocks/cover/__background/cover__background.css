@@ -4,14 +4,14 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    min-height: 740px;
-    height: 100%;
+    max-width: 1184px;
+    height: 0;
+    padding-bottom: calc(740 / 1184 * 100%);
     width: 100%;
     text-decoration: none;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+
 }
 
 .cover__background::before {
