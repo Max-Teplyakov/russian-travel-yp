@@ -4,7 +4,7 @@
     display: grid;
     max-width: 984px;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: 1fr fit-content;
+    grid-template-rows: 1fr minmax(min-content, max-content);
     column-gap: 40px;
     row-gap: 48px;
 }
@@ -44,6 +44,7 @@
         align-items: flex-start;
         margin: 0 0 50px;
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
         row-gap: 32px;
     }
 
