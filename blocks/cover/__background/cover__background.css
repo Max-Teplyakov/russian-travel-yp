@@ -4,14 +4,35 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    max-width: 1184px;
-    height: 0;
-    padding-bottom: calc(740 / 1184 * 100%);
+    min-height: 740px;
     width: 100%;
     text-decoration: none;
     color: #fff;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+@media screen and (max-width: 1024px) {
+    .cover {
+
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .cover {
+
+        min-height: 200px;
+    }
 }
 
 .cover__background::before {
