@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    max-width: 1184px;
     min-height: 740px;
     width: 100%;
     text-decoration: none;
@@ -15,21 +16,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .cover {
+    .cover__background {
 
         min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cover {
+    .cover__background {
 
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 660px) {
-    .cover {
+    .cover__background {
 
         min-height: 200px;
     }
